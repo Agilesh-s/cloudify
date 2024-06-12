@@ -9,16 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles.css">
-</head>
+</head> 
 <body>
-      <div class="callout callout--primary">
-        <div class="grid grid--1x2">
-            <div class="callout__content">
-                <h2 class="callout__heading">Ready to get started?</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ipsum, itaque sit cupiditate tempora tempore placeat explicabo cumque iusto. Similique.</p>
-            </div>
-            <a href="#" class="btn btn--secondary btn--stretched">Get started</a>
+    <div class="collapsible collapsible__expand">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item 1</h2>
+                <svg class="icon icon--white collapsible__chevron">
+                    <use xlink:href="images/sprite.svg#chevron"></use>
+                </svg>
+        </header>
+        <div class="collapsible__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, velit!
         </div>
-      </div>
+    </div>
+    <div class="collapsible collapsible__expand">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item 1</h2>
+                <svg class="icon icon--white collapsible__chevron">
+                    <use xlink:href="images/sprite.svg#chevron"></use>
+                </svg>
+        </header>
+        <div class="collapsible__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, velit!
+        </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

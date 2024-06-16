@@ -1,0 +1,6 @@
+[build]
+  command = "parcel build index.html" # Adjust based on your entry file
+  publish = "dist" # Default output directory for Parcel
+
+[context.production.environment]
+  NODE_ENV = "production"

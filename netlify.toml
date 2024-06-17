@@ -1,5 +1,5 @@
 [build]
-  command = "parcel build index.html" # Adjust based on your entry file
+  command = "parcel build index.html --no-minify" # Adjust based on your entry file
   publish = "dist" # Default output directory for Parcel
 
 [context.production.environment]
